@@ -1,0 +1,11 @@
+/* Assuming you have a CSS file for alerts */
+.alert-container {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* Adjust the duration and easing as needed */
+  }
+  
+  .alert-container.hidden {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events when hidden */
+  }
+  

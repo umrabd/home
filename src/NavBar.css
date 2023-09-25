@@ -1,0 +1,5 @@
+/* Change toggle button color */
+.form-switch .form-check-input:checked {
+    background-color: rgba(46, 46, 46, 0.525) !important;
+  }
+  
