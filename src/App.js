@@ -41,8 +41,11 @@ setTimeout(() => {
   return (
    <>
    <Router>
-   <NavBar title = "Parapros" mode ={mode} toggleMode ={toggleMode}/>
+    <Route>
 
+   <NavBar title = "Parapros" mode ={mode} toggleMode ={toggleMode} exact path ="/home"/>
+
+    </Route>
    <Alert alert = {alert}/>
    <Switch>
    <Route exact path ="/about">
